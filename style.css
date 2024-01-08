@@ -472,7 +472,7 @@ big {
 /* Elements
 --------------------------------------------- */
 body {
-	background: #ff0000;
+	background: #ffffff;
 }
 
 hr {
@@ -640,9 +640,6 @@ textarea {
 /*--------------------------------------------------------------
 # Layouts
 --------------------------------------------------------------*/
-.site-branding {
-	width: 30%;
-}
 
 /*--------------------------------------------------------------
 # Components
@@ -651,9 +648,8 @@ textarea {
 /* Navigation
 --------------------------------------------- */
 .main-navigation {
-	float: right;
 	display: block;
-	width: 70%;
+	width: 100%;
 }
 
 .main-navigation ul {
@@ -805,7 +801,6 @@ textarea {
 
 /* Make sure logo link wraps around logo image. */
 .custom-logo-link {
-	float: left;
 	display: inline-block;
 	width: 100%;
 }
